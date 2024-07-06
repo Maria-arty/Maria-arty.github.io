@@ -34,19 +34,18 @@ h2 {
 }
 .box-container {
     display: flex;
-    height: 40vh;
-    width: 100%;
+    flex-wrap: wrap;
     
     
 }
 .box-left {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     height: 40vh;
     width: 30%;
     background-color: beige;
+}
     @media (max-width: 768px) {
         .box-right {
           width: 100%;
@@ -65,18 +64,17 @@ h2 {
 }
 .box-right {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: left;
     align-items: left;
     height: 40vh;
     width: 70%;
+}
 
 @media (max-width: 768px) {
   .box-left {
     width: 100%;
   }
-}
 }
 
 h1 {
