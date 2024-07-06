@@ -51,9 +51,8 @@ h2 {
         }
     }
 .photo-box {
-    width: 30%;
+    width: 30rem;
     height: auto;
-    text-align: center;
 }
 }
 .photo {
