@@ -51,17 +51,17 @@ h2 {
 .photo-box {
     width: 60%;
     height: auto;
-}
+
 .photo {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     padding: 1rem;
 }
+}
 .box-right {
     display: flex;
     flex-direction: column;
-    justify-content: left;
     align-items: center;
     width: 70%;
 }
