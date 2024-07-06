@@ -53,6 +53,7 @@ h2 {
 .photo-box {
     width: 30%;
     height: auto;
+    text-align: center;
 }
 }
 .photo {
